@@ -1,0 +1,34 @@
+[
+  {
+    "invoice_id": "INV/2026/05/0001",
+    "issue_date": "2026-05-21",
+    "customer": {
+      "customer_id": "CUST-8493",
+      "name": "Cliente Ejemplo S.A.",
+      "email": "administracion@clienteejemplo.com",
+      "vat_number": "ESB12345678"
+    },
+    "lines": [
+      {
+        "product_id": "PROD-001",
+        "description": "Licencia ERP Anual",
+        "quantity": 1,
+        "price_unit": 1200.00,
+        "discount_percent": 0.0,
+        "subtotal": 1200.00
+      },
+      {
+        "product_id": "SERV-002",
+        "description": "Consultoría e Implantación",
+        "quantity": 10,
+        "price_unit": 60.00,
+        "discount_percent": 5.0,
+        "subtotal": 570.00
+      }
+    ],
+    "tax_base": 1770.00,
+    "taxes_amount": 371.70,
+    "total_amount": 2141.70,
+    "currency": "EUR"
+  }
+]
