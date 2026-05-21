@@ -1,4 +1,4 @@
-# Manual de Explotación - WillmanTech S.L.
+# Manual de Explotación - WillmanTech S.L (Por Lucia Lopez)
 **Norma de referencia:** ISO/IEC/IEEE 26514:2022
 
 ## 1. Introducción y Arquitectura
