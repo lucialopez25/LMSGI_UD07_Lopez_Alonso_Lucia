@@ -4,7 +4,7 @@
 ## 1. Introducción y Arquitectura
 El sistema ERP de WillmanTech S.L. está diseñado bajo una arquitectura de microservicios contenerizada orientada a la alta disponibilidad. La topología lógica se despliega mediante **Docker Compose**, separando la capa de aplicación (ERP) de la capa de persistencia de datos (Sistema Gestor de Base de Datos).
 
-* **Módulos activados:** Facturación (`account`), Ventas (`sale`), y Reportes QWeb (`web`).
+* **Módulos activados:** Facturación (account), Ventas (sale), y Reportes QWeb (web).
 * **Contenedor Aplicación:** Imagen basada en Odoo/Python.
 * **Contenedor SGBD:** Imagen basada en PostgreSQL 15.
 
@@ -13,8 +13,8 @@ Para levantar el entorno desde cero, se requiere Docker y Docker Compose instala
 
 **Pasos de despliegue:**
 1. Clonar el repositorio en el servidor de producción.
-2. Definir las variables de entorno en un archivo `.env` en la raíz del proyecto:
-   ```env
+2. Definir las variables de entorno en un archivo .env en la raíz del proyecto:
+   env
    POSTGRES_DB=willmantech_db
    POSTGRES_USER=odoo_user
    POSTGRES_PASSWORD=secure_db_password
